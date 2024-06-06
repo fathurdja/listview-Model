@@ -24,8 +24,8 @@ class DetailScreen extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Container(
-                padding: EdgeInsets.symmetric(vertical: 10, horizontal: 20),
-                child: Row(
+                padding: const EdgeInsets.symmetric(vertical: 10, horizontal: 20),
+                child: const Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Icon(
@@ -53,20 +53,20 @@ class DetailScreen extends StatelessWidget {
                 ),
               ),
               Container(
-                padding: EdgeInsets.symmetric(vertical: 15, horizontal: 10),
+                padding: const EdgeInsets.symmetric(vertical: 15, horizontal: 10),
                 child: Column(
                   children: [
-                    Text(
+                    const Text(
                       "Description",
                       style:
                           TextStyle(fontSize: 40, fontWeight: FontWeight.bold),
                     ),
-                    SizedBox(
+                    const SizedBox(
                       height: 10,
                     ),
                     Text(
                       "$description",
-                      style: TextStyle(fontSize: 20),
+                      style: const TextStyle(fontSize: 20),
                       textAlign: TextAlign.center,
                     ),
                   ],

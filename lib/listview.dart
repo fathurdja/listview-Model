@@ -15,9 +15,9 @@ class Field extends StatelessWidget {
           TextButton.icon(
               onPressed: () {
                 Navigator.push(context,
-                    MaterialPageRoute(builder: (context) => AboutScreen()));
+                    MaterialPageRoute(builder: (context) => const AboutScreen()));
               },
-              label: Icon(Icons.person))
+              label: const Icon(Icons.person))
         ],
       ),
       body: Padding(

@@ -10,18 +10,22 @@ class AboutScreen extends StatelessWidget {
           title: const Text("About Me"),
         ),
         body: ListView(
-          children: [
+          children: const [
             CircleAvatar(
-              backgroundImage: NetworkImage("url"),
+              radius: 100,
+              backgroundImage: AssetImage("assets/images/zaim.jpg"),
             ),
             Column(
               children: [
                 Text(
-                  "About Me ",
-                  style: TextStyle(
-                    fontSize: 14.0,
-                  ),
+                  "Zaim Fathurrahman Ilham ",
+                  style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
                 ),
+                SizedBox(
+                  height: 15,
+                ),
+                // text diganti deskripsi 
+                Text("text"),
               ],
             )
           ],
